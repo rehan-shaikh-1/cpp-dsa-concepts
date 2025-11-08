@@ -21,7 +21,4 @@ Each program focuses on a **single concept** — from sorting and searching to g
 🌐 Connect with me on:
 https://www.linkedin.com/in/rehan-shaikh-aa8975330/
 
-📜 License
-This project is licensed under the MIT License — feel free to use and modify with proper credit.
-
 ⭐ If you find this repository helpful, don’t forget to give it a star! 🌟
