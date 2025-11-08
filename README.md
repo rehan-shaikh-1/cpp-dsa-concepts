@@ -12,7 +12,7 @@ It’s designed to help beginners and intermediate programmers strengthen their 
 
 Each program focuses on a **single concept** — from sorting and searching to graph algorithms — making it perfect for students and self-learners.
 
-##Author
+## Author
 👨‍💻 Rehan Shaikh
 🎓 Indira College of Engineering and Management
 💻 Passionate about C++, DSA, and full-stack development
