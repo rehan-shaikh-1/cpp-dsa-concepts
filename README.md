@@ -17,4 +17,34 @@ Each program focuses on a **single concept** — from sorting and searching to g
 ---
 
 ## 📂 Folder Structure  
+cpp-dsa-concepts/
+│
+├── Sorting/
+│ ├── bubbleSort.cpp
+│ ├── selectionSort.cpp
+│ └── insertionSort.cpp
+│
+├── Searching/
+│ ├── linearSearch.cpp
+│ └── binarySearch.cpp
+│
+├── Graphs/
+│ ├── bfsTraversal.cpp
+│ ├── dfsTraversal.cpp
+│ └── shortestPath.cpp
+│
+└── README.md
 
+##Author
+👨‍💻 Rehan Shaikh
+🎓 Indira College of Engineering and Management
+💻 Passionate about C++, DSA, and full-stack development
+📅 Started this repository on: 08 November 2025
+
+🌐 Connect with me on:
+https://www.linkedin.com/in/rehan-shaikh-aa8975330/
+
+📜 License
+This project is licensed under the MIT License — feel free to use and modify with proper credit.
+
+⭐ If you find this repository helpful, don’t forget to give it a star! 🌟
