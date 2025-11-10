@@ -32,16 +32,16 @@ void InsertionSort(vector<int> &arr) {
 }
 
 int main() {
-    vector<int> bs = {1, 7, 3, 14, 5};
+    vector<int> is = {1, 7, 3, 14, 5};
 
     cout << "\nBefore Insertion Sort: ";
-    for (int s : bs)
+    for (int s : is)
         cout << s << " ";
 
-    InsertionSort(bs);
+    InsertionSort(is);
 
     cout << "\nAfter Insertion Sort:  ";
-    for (int s : bs)
+    for (int s : is)
         cout << s << " ";
 
     cout << endl;
