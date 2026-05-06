@@ -16,22 +16,22 @@ class FileHandler {
 
 public:
     void add() {
-        ofstream out(fileName, ios::binary | ios::app);
+        fstream file(fileName, ios::binary | ios::app);
         cout << "Enter ID, Name, Salary: ";
         cin >> emp.id >> emp.name >> emp.salary;
-        out.write((char*)&emp, sizeof(emp));
+        file.write((char*)&emp, sizeof(emp));
         cout << "Record Saved.\n";
     }
 
     void display() {
-        ifstream in(fileName, ios::binary);
+        fstream in(fileName, ios::binary);
         while (in.read((char*)&emp, sizeof(emp))) {
             cout << emp.id << " | " << emp.name << " | " << emp.salary << endl;
         }
     }
 
     void search(int id) {
-        ifstream in(fileName, ios::binary);
+        fstream in(fileName, ios::binary);
         while (in.read((char*)&emp, sizeof(emp))) {
             if (emp.id == id) {
                 cout << "Found: " << emp.name << endl;
@@ -42,8 +42,8 @@ public:
     }
 
     void remove(int id) {
-        ifstream in(fileName, ios::binary);
-        ofstream temp("temp.bin", ios::binary);
+        fstream in("data.bin", ios::binary);
+        fstream temp("temp.bin", ios::binary);
         bool found = false;
 
         while (in.read((char*)&emp, sizeof(emp))) {
